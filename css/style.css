@@ -1,0 +1,449 @@
+@font-face {
+  font-family: "OriginTech";
+  src: url(OriginTech.otf), url(OriginTech.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  position: relative;
+}
+
+#particles-js {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  inset: 0;
+}
+
+* {
+  font-family: "Poppins";
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-size: 16px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+section {
+  padding: 60 0;
+}
+
+.origin-tech {
+  font-family: "OriginTech";
+  font-size: inherit;
+  font-weight: normal;
+}
+
+.serif {
+  font-family: serif;
+  font-weight: bold;
+}
+
+.navbar {
+  background-color: #284051;
+  color: #fff;
+}
+.navbar-brand {
+  width: 200px;
+}
+.logonavbar {
+  width: 100%;
+}
+
+#navbarhome {
+  color: #fed150 !important;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+.nav-link:hover {
+  color: #fed150 !important;
+  transition: all ease-in-out 0.5s;
+}
+
+.hero {
+  background-image: url("../assets/Images/Hero-Background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  padding-bottom: 5rem;
+}
+.covermainimage {
+  width: 85%;
+  display: flex;
+  padding-top: 2rem;
+}
+
+.MainImage {
+  margin-left: auto;
+  margin-right: auto;
+  width: 87.5%;
+}
+
+.title {
+  color: #fecf42;
+}
+
+.btn-register {
+  border: 2px solid #fecf42;
+  color: #fff;
+  transition: 1s;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.btn-register:hover {
+  background-color: #fecf42;
+  color: #000;
+  transform: translateY(-10px);
+}
+
+.timeline,
+.benefits,
+.events,
+.faq {
+  background-color: #0f2129;
+}
+
+h2 {
+  color: #fecf42;
+}
+
+.timeline-responsive {
+  display: none;
+}
+
+.img-timeline {
+  position: absolute;
+}
+
+.overlay {
+  position: relative;
+  top: 20px;
+}
+
+.timeline-bottom {
+  margin-top: 10rem;
+}
+
+.benefitsitemlist {
+  display: flex;
+}
+
+.benefitsitemlist .item {
+  position: relative;
+  width: 26%;
+  margin-left: 3.666%;
+  margin-right: 3.666%;
+  text-align: center;
+  color: white;
+}
+
+.benefitstitle::after {
+  content: "";
+  width: 25%;
+  height: 4px;
+  margin-top: 10px;
+  background-color: #fecf42;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.benefits .ri {
+  font-size: 4rem;
+  color: #fecf42;
+}
+
+/* Carousel */
+
+.events-title h1 {
+  font-size: 4rem;
+  color: #fecf42;
+}
+
+.carousel-card {
+  display: flex;
+  height: auto;
+  width: 100%;
+}
+
+.carousel-text {
+  width: 40%;
+  color: white;
+  font-family: "Poppins";
+  text-align: justify;
+}
+
+.carousel-text h1 {
+  font-size: 1.5rem;
+}
+
+.carousel-image {
+  width: 50%;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.carousel-image img {
+  width: 50%;
+}
+
+.carousel-responsive {
+  display: none;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  width: 10% !important;
+}
+
+/* Carousel */
+
+/* Things to prepare */
+.ttp {
+  background-color: #0f2129;
+}
+
+.ttp img {
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+.ttp img:hover {
+  transform: scale(1.05);
+}
+/* Things to prepare */
+
+.accordion .btn {
+  font-size: 1.25rem;
+  color: #0f2129;
+}
+
+.accordion .btn::before {
+  content: "";
+  background-color: #000;
+  width: 15px;
+}
+
+#our-partners {
+  background-color: #0f2129;
+}
+
+#faq h3,
+#our-partners h3 {
+  color: #fecf42;
+  font-size: 2rem;
+}
+
+.hr-part {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid hsl(45, 99%, 63%);
+}
+
+.faq-2 a {
+  text-decoration: none;
+}
+
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+.wait-section {
+  background-color: black;
+  color: white;
+}
+.wait-item {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.wait-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  background-color: #253544;
+}
+.footer .kiri .logo {
+  display: flex;
+  width: 45%;
+  align-items: center;
+}
+.footer .kiri .logo .img-himti {
+  width: 40%;
+}
+.footer .kiri .logo .img-binus {
+  width: 60%;
+  height: 80%;
+}
+.footer .kiri h5 {
+  margin-top: 10px;
+  color: white;
+  font-weight: 300;
+}
+
+.footer .ri {
+  font-size: 2rem;
+  padding-right: 0.5rem;
+}
+
+.footer .contact a {
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.footer .contact a:hover p,
+.footer .contact a:hover i {
+  color: #fed150;
+}
+
+.footer .contact a p {
+  margin-bottom: 0;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+@media (max-width: 992px) {
+  .benefitsitemlist {
+    display: block;
+  }
+  .benefitsitemlist .item {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    color: white;
+  }
+  .benefitstitle::after {
+    content: "";
+    width: 25%;
+    height: 2px;
+    background-color: #fecf42;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer .kiri .logo {
+    width: 75%;
+  }
+}
+@media (max-width: 768px) {
+  .h1 {
+    font-size: 1.75rem !important;
+  }
+
+  .h4,
+  .btn-register {
+    font-size: 1rem !important;
+  }
+
+  .MainImage {
+    width: 100%;
+  }
+
+  .footer .kiri .logo {
+    width: 90%;
+    margin-bottom: 3rem;
+  }
+
+  .benefitsitemlist .item {
+    width: 90%;
+    margin: 0;
+    margin: 0 5%;
+  }
+
+  .accordion .btn {
+    font-size: 1rem;
+  }
+
+  .card-body {
+    font-size: 0.875rem;
+  }
+
+  .carousel-card {
+    display: block;
+  }
+
+  .carousel-text {
+    width: 90%;
+  }
+
+  .carousel-responsive {
+    display: block;
+  }
+  .carousel-image {
+    display: none;
+  }
+}
+
+@media (max-width: 380px) {
+  .navbar-brand {
+    width: 150px;
+  }
+}
+
+@media (max-width: 320px) {
+  .timeline-normal {
+    display: none;
+  }
+  .timeline-responsive {
+    display: block;
+  }
+
+  .timeline-bottom {
+    margin-top: 5rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .timeline-normal {
+    display: none;
+  }
+  .timeline-responsive {
+    display: block;
+  }
+  \888999 .timeline-bottom {
+    margin-top: 5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .timeline-normal {
+    display: none;
+  }
+  .timeline-responsive {
+    display: block;
+  }
+
+  .timeline-bottom {
+    margin-top: 5rem;
+  }
+}
