@@ -120,7 +120,8 @@ section {
   background-color: #0f2129;
 }
 
-h2 {
+h2,
+h3 {
   color: #fecf42;
 }
 
@@ -133,6 +134,10 @@ h2 {
 }
 
 .overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   position: relative;
   top: 20px;
 }
@@ -142,6 +147,8 @@ h2 {
 }
 
 .benefitsitemlist {
+  max-width: 1536px;
+  margin: 0 auto;
   display: flex;
 }
 
@@ -220,15 +227,24 @@ h2 {
   background-color: #0f2129;
 }
 
-.ttp img {
+.ttp-item img {
   transition-duration: 0.5s;
   cursor: pointer;
 }
 
-.ttp img:hover {
+.ttp-item img:hover {
   transform: scale(1.05);
 }
-/* Things to prepare */
+
+.ttp-item a:hover .ri,
+.ttp-item a:hover p {
+  color: #fecf42;
+}
+
+.ttp-item .ri {
+  font-size: 1.5rem;
+  padding-right: 0.5rem;
+}
 
 .accordion .btn {
   font-size: 1.25rem;
@@ -265,7 +281,7 @@ h2 {
   animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
 .wait-section {
-  background-color: black;
+  background-color: #061318;
   color: white;
 }
 .wait-item {
@@ -281,7 +297,7 @@ h2 {
 .footer {
   width: 100%;
   display: flex;
-  background-color: #253544;
+  background-color: #284051;
 }
 .footer .kiri .logo {
   display: flex;
@@ -358,7 +374,17 @@ h2 {
 }
 @media (max-width: 768px) {
   .h1 {
-    font-size: 1.75rem !important;
+    font-size: 1.75rem;
+  }
+
+  h2,
+  .h2 {
+    font-size: 1.5rem;
+  }
+
+  h3,
+  .h3 {
+    font-size: 1.25rem;
   }
 
   .h4,
@@ -431,7 +457,7 @@ h2 {
   .timeline-responsive {
     display: block;
   }
-  \888999 .timeline-bottom {
+  .timeline-bottom {
     margin-top: 5rem;
   }
 }
