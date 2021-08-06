@@ -129,6 +129,14 @@ h3 {
   display: none;
 }
 
+.mobile-timeline {
+  display: none;
+}
+
+.desktop-timeline {
+  display: block;
+}
+
 .img-timeline {
   position: absolute;
 }
@@ -179,8 +187,8 @@ h3 {
 
 /* Carousel */
 
-.events-title h1 {
-  font-size: 4rem;
+.events-title h2 {
+  margin-top: 35px;
   color: #fecf42;
 }
 
@@ -451,6 +459,13 @@ h3 {
 }
 
 @media (max-width: 425px) {
+  .mobile-timeline {
+    display: block;
+  }
+  .desktop-timeline {
+    display: none;
+  }
+
   .timeline-normal {
     display: none;
   }
