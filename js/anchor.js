@@ -1,5 +1,4 @@
 const smoothScrollAnchor = document.querySelectorAll("a[href^='#']");
-
 for (let index = 0; index < smoothScrollAnchor.length; index++) {
   const el = smoothScrollAnchor[index];
 
