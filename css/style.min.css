@@ -20,7 +20,7 @@ nav li a:hover {
   inset: 0;
 }
 * {
-  font-family: Poppins;
+  font-family: 'Poppins';
   margin: 0;
   box-sizing: border-box;
   padding: 0;
@@ -55,7 +55,7 @@ section {
   width: 100%;
 }
 .active a {
-  color: #fed150 !important;
+  color: #fed150;
 }
 .nav-link {
   color: #fff !important;
@@ -69,7 +69,7 @@ section {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 100%;
   padding-bottom: 5rem;
 }
 .covermainimage {
@@ -172,7 +172,7 @@ h3 {
   height: auto;
   width: 100%;
   margin-bottom: 10%;
-  padding-top: 10%;
+  padding-top: 5%;
 }
 .carousel-text {
   width: 50%;
@@ -185,14 +185,31 @@ h3 {
   font-size: 1.5rem;
 }
 .carousel-image {
-  width: 50%;
-  margin-bottom: auto;
-  margin-top: auto;
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 .carousel-image img {
   width: 50%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.img-techno {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-btn-closed,
+.carousel-btn-soon{
+background-color: #e2e6ea;
+pointer-events: none;
+}
+
+.carousel-text a{
+  color: #000;
 }
 .carousel-responsive {
   display: none;
