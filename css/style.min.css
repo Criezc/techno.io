@@ -20,7 +20,7 @@ nav li a:hover {
   inset: 0;
 }
 * {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   margin: 0;
   box-sizing: border-box;
   padding: 0;
@@ -85,6 +85,10 @@ section {
 .title {
   color: #fecf42;
 }
+.btn {
+  background-color: transparent !important;
+}
+
 .btn-register {
   border: 2px solid #fecf42;
   color: #fff;
@@ -203,12 +207,12 @@ h3 {
 }
 
 .carousel-btn-closed,
-.carousel-btn-soon{
-background-color: #e2e6ea;
-pointer-events: none;
+.carousel-btn-soon {
+  background-color: #e2e6ea;
+  pointer-events: none;
 }
 
-.carousel-text a{
+.carousel-text a {
   color: #000;
 }
 .carousel-responsive {
@@ -276,7 +280,7 @@ pointer-events: none;
   transition: 200ms ease-out;
 }
 
-.media-logo img:hover{
+.media-logo img:hover {
   transform: translateY(-10px);
   cursor: pointer;
 }
@@ -410,6 +414,7 @@ pointer-events: none;
   h3 {
     font-size: 1.25rem;
   }
+
   .btn-register,
   .h4 {
     font-size: 1rem !important;
