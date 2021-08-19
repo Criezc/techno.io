@@ -261,6 +261,26 @@ pointer-events: none;
   flex-direction: column;
   border: 1px solid #fecf43;
 }
+
+.media-logo {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.media-logo img {
+  height: 100%;
+  width: 100%;
+  transition: 200ms ease-out;
+}
+
+.media-logo img:hover{
+  transform: translateY(-10px);
+  cursor: pointer;
+}
+
 .faq-2 a {
   text-decoration: none;
 }
