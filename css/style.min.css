@@ -85,9 +85,6 @@ section {
 .title {
   color: #fecf42;
 }
-.btn {
-  background-color: transparent !important;
-}
 
 .btn-register {
   border: 2px solid #fecf42;
