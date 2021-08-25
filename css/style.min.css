@@ -52,7 +52,7 @@ section {
   width: 200px;
 }
 .logonavbar {
-  width: 100%;
+  width: 110%;
 }
 .active a {
   color: #fed150;
@@ -137,6 +137,15 @@ h3 {
 .timeline-bottom {
   margin-top: 10rem;
 }
+
+.benefits-desktop {
+  display: block;
+}
+
+.benefits-responsive {
+  display: none;
+}
+
 .benefitsitemlist {
   max-width: 1536px;
   margin: 0 auto;
@@ -164,6 +173,7 @@ h3 {
   font-size: 4rem;
   color: #fecf42;
 }
+
 .events-title h2 {
   margin-top: 35px;
   color: #fecf42;
@@ -445,6 +455,14 @@ h3 {
   }
   .carousel-image {
     display: none;
+  }
+
+  .benefits-desktop {
+    display: none;
+  }
+  .benefits-responsive {
+    display: block;
+    height: 75px;
   }
 }
 @media (max-width: 380px) {
