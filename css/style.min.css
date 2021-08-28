@@ -174,12 +174,8 @@ h3 {
   color: #fecf42;
 }
 
-.events-desktop {
-  display: block;
-}
-
-.events-responsive {
-  display: none;
+.events-backg {
+  height: 120px;
 }
 
 .events-title h2 {
@@ -476,12 +472,8 @@ h3 {
     height: 75px;
   }
 
-  .events-desktop {
-    display: none;
-  }
-
-  .events-responsive {
-    display: block;
+  .events-backg {
+    height: 100px;
   }
 }
 @media (max-width: 380px) {
@@ -523,7 +515,7 @@ h3 {
     width: 50%;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .timeline-normal {
     display: none;
   }
