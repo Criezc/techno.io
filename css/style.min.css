@@ -281,7 +281,7 @@ h3 {
 .sponsor-wrapper {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: space-around;
   align-items: center;
   z-index: 1;
