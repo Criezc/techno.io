@@ -1,4 +1,4 @@
-// @ts-nocheck
+// @ts-nochec
 !(function ($) {
   $(window).scroll(function () {
     if ($(this).scrollTop()) {
