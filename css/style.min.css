@@ -28,6 +28,7 @@ nav li a:hover {
 }
 html {
   scroll-behavior: smooth;
+  scrollbar-width: none;
 }
 a {
   text-decoration: none !important;
@@ -277,6 +278,25 @@ h3 {
   border: 1px solid #fecf43;
 }
 
+.sponsor-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 1;
+}
+
+.sponsor-large {
+  z-index: 999999;
+  width: 40%;
+}
+
+.sponsor-small {
+  z-index: 999999;
+  width: 30%;
+}
+
 .media-logo {
   padding: 10px;
   display: flex;
@@ -512,6 +532,12 @@ h3 {
     margin-top: 5rem;
   }
   .carousel-responsive {
+    width: 50%;
+  }
+  .sponsor-large {
+    width: 75%;
+  }
+  .sponsor-small {
     width: 50%;
   }
 }
